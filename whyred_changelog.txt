@@ -6,3 +6,4 @@ Device maintainer: Arijit Saha (whyred_404)
 ===== 16-02-2025 =====
 - crDroid 11.2 release
 - Added support for ota
+- Switched to EliteX kernel

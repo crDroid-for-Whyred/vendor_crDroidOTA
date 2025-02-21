@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Arijit Saha (@whyred_404)",
+            "oem": "Xiaomi",
+            "device": "Redmi Note 5 Pro",
+            "filename": "crDroidAndroid-15.0-20250220-whyred-v11.2.zip",
+            "download": "https://sourceforge.net/projects/aosp-project-whyred/files/cr/crDroidAndroid-15.0-20250220-whyred-v11.2.zip/download",
+            "timestamp": 1740080160,
+            "md5": "d0eb4068a9bb1c2fb8976c38ba5d0a70",
+            "sha256": "dbc09039f717728de7d80e998ccc45148b5a4ae722e74eb36eb7b656fda906b0",
+            "size": 1563426816,
+            "version": "11.2",
+            "buildtype": "Stable",
+            "forum": "",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "https://t.me/project_bd_support",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_whyred",
+            "common-dt": "",
+            "kernel": "https://github.com/user-why-red/android_kernel_xiaomi_sdm660_419"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Highlights & Device Specific Changes:
+Build type: Monthly/Weekly
+Device: Redmi Note 5 Pro (Whyred)
+Device maintainer: Arijit Saha (whyred_404)
+
+===== 16-02-2025 =====
+- crDroid 11.2 release
+- Added support for ota

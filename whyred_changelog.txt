@@ -1,9 +1,173 @@
-Highlights & Device Specific Changes:
-Build type: Monthly/Weekly
-Device: Redmi Note 5 Pro (Whyred)
-Device maintainer: Arijit Saha (whyred_404)
+====================
+     02-24-2025
+====================
 
-===== 16-02-2025 =====
-- crDroid 11.2 release
-- Added support for ota
-- Switched to EliteX kernel
+   * frameworks/base
+9900ce82b Fix nav bar flickering when dialog shows
+
+   * hardware/lineage/compat
+ee08dfa compat: libnativehelper: clang-format
+
+   * packages/apps/Launcher3
+0201835 Fix Navbar height issue
+
+====================
+     02-23-2025
+====================
+
+   * packages/apps/Dialer
+7cc5e17 New translations (#145)
+
+   * packages/apps/GameSpace
+1e297c0 New Crowdin updates (#106)
+
+   * packages/apps/Glimpse
+7e7ea6d Glimpse: Fix trashed SECURE_REVIEW items not getting removed from screen
+
+   * packages/apps/Twelve
+ae0a3ea Twelve: NowPlayingFragment: Fix shuffle and repeat marker being cut in half
+
+   * packages/apps/crDroidSettings
+4471311 New Crowdin updates (#1223)
+
+====================
+     02-22-2025
+====================
+
+   * build/make
+1ad296f build_image: get squashfs partition size from image size
+
+   * build/soong
+268d15a soong: Disable sandbox
+
+   * lineage-sdk
+3f7dcd3 ChargingControl: Prevent crash against very frequent power toggle
+
+   * packages/apps/LineageParts
+ae4b79b Disable unused components
+
+   * packages/apps/Messaging
+a723934 Messaging: Replace AOSP illustrations
+
+   * packages/apps/Settings
+d00549a Change range of battery saver schedule seekbar
+
+   * packages/apps/ThemePicker
+f668f94 ThemePicker: Wait for transition end before setting active option
+
+   * vendor/addons
+41278e25 addons: iconshapes: Remove config_dialogCornerRadius again
+
+   * vendor/lineage
+b1826bb apns: Add 1and1 (Germany)
+
+====================
+     02-21-2025
+====================
+
+   * device/qcom/sepolicy_vndr/sm8450
+0624d88 sepolicy: NFC: Label NXP NFC 2.0 HIDL
+
+   * device/qcom/sepolicy_vndr/sm8550
+78af557 sepolicy: NFC: Label NXP NFC 2.0 HIDL
+
+   * packages/apps/Updater
+0b91ee3 updater: Reroute changelog url to github repo
+b65fdb9 Updater: route update to custom url
+
+====================
+     02-20-2025
+====================
+
+   * packages/apps/Aperture
+0fd3ae9 Aperture: Switch to upstream zxing-cpp
+
+   * toolchain/pgo-profiles
+a68936d Remove AFDO profile for libz
+
+   * vendor/certification
+1580b8c certification: update to the latest A16 beta (#6)
+
+====================
+     02-19-2025
+====================
+
+   * packages/apps/Catapult
+fb83201 Catapult: String improvements & fixes
+
+====================
+     02-18-2025
+====================
+
+   * external/avb
+5986166 avbtool: Add --set_verification_disabled_flag arg
+
+   * packages/apps/FMRadio
+168f373 jni: Move customisation to properties
+
+====================
+     02-17-2025
+====================
+
+   * packages/apps/DeskClock
+296e428 DeskClock: Convert ListPreferences to SimpleMenuPreferences
+
+   * packages/apps/Jelly
+1f5f1bc Jelly: Save user agreement about protected media
+
+====================
+     02-16-2025
+====================
+
+   * device/qcom/sepolicy-legacy-um
+ff38179 sepolicy: Add default permission for aidl hal_bootctl
+
+   * packages/apps/AudioFX
+02916e7 Automatic translation import
+
+   * packages/apps/Camelot
+23242a1 Automatic translation import
+
+   * packages/apps/Contacts
+77afb19 Automatic translation import
+
+   * packages/apps/Etar
+578b82a Automatic translation import
+
+   * packages/apps/FlipFlap
+fe2abce Automatic translation import
+
+   * packages/apps/Profiles
+7455e65 Automatic translation import
+
+   * packages/apps/Recorder
+8f65896 Automatic translation import
+
+   * packages/providers/DownloadProvider
+be8b0fb Automatic translation import
+
+   * packages/resources/devicesettings
+8624d14 Automatic translation import
+
+   * vendor/crowdin
+fef707d Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+b38a391 Automatic translation import
+
+====================
+     02-15-2025
+====================
+
+   * art
+a44294a Update boot image and system server profiles [M80C35P56S0PP]
+
+   * hardware/interfaces
+7d7ac39 Merge 'lineage-22.1' into 15.0
+
+   * hardware/lineage/interfaces
+ed17ff3 libperfmgr: Only throw DisplayIdle errors if we support it
+
+   * lineage/scripts
+38d1654 reuse_helper: Handle kotlin files
+

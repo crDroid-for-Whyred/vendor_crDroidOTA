@@ -1,173 +1,136 @@
 ====================
-     11-24-2025
+     05-13-2025
 ====================
+
+   * frameworks/av
+5a587db camera: fixup! Add extension to control torch light strength
 
    * frameworks/base
-9900ce82b Fix nav bar flickering when dialog shows
-
-   * hardware/lineage/compat
-ee08dfa compat: libnativehelper: clang-format
-
-   * packages/apps/Launcher3
-0201835 Fix Navbar height issue
-
-====================
-     02-23-2025
-====================
-
-   * packages/apps/Dialer
-7cc5e17 New translations (#145)
-
-   * packages/apps/GameSpace
-1e297c0 New Crowdin updates (#106)
-
-   * packages/apps/Glimpse
-7e7ea6d Glimpse: Fix trashed SECURE_REVIEW items not getting removed from screen
-
-   * packages/apps/Twelve
-ae0a3ea Twelve: NowPlayingFragment: Fix shuffle and repeat marker being cut in half
-
-   * packages/apps/crDroidSettings
-4471311 New Crowdin updates (#1223)
-
-====================
-     02-22-2025
-====================
-
-   * build/make
-1ad296f build_image: get squashfs partition size from image size
-
-   * build/soong
-268d15a soong: Disable sandbox
-
-   * lineage-sdk
-3f7dcd3 ChargingControl: Prevent crash against very frequent power toggle
-
-   * packages/apps/LineageParts
-ae4b79b Disable unused components
-
-   * packages/apps/Messaging
-a723934 Messaging: Replace AOSP illustrations
-
-   * packages/apps/Settings
-d00549a Change range of battery saver schedule seekbar
-
-   * packages/apps/ThemePicker
-f668f94 ThemePicker: Wait for transition end before setting active option
-
-   * vendor/addons
-41278e25 addons: iconshapes: Remove config_dialogCornerRadius again
+d6926d5b1 Remove ServiceRecord from restart list if restart is cancelled as unnecessary
 
    * vendor/lineage
-b1826bb apns: Add 1and1 (Germany)
+2689605 crdroid: Bump to version 11.5
 
 ====================
-     02-21-2025
+     05-12-2025
 ====================
 
-   * device/qcom/sepolicy_vndr/sm8450
-0624d88 sepolicy: NFC: Label NXP NFC 2.0 HIDL
+   * android
+e2c7ec5 manifest: Track hardware/google/pixel
 
-   * device/qcom/sepolicy_vndr/sm8550
-78af557 sepolicy: NFC: Label NXP NFC 2.0 HIDL
+   * bootable/recovery
+28f76bd Merge 'lineage-22.2' into 15.0
 
-   * packages/apps/Updater
-0b91ee3 updater: Reroute changelog url to github repo
-b65fdb9 Updater: route update to custom url
+   * build/make
+4607f91 build: disable memory tagging for surfaceflinger
 
-====================
-     02-20-2025
-====================
+   * build/soong
+6d448e5 Add LDFlags for FSAFDO
 
-   * packages/apps/Aperture
-0fd3ae9 Aperture: Switch to upstream zxing-cpp
+   * device/lineage/sepolicy
+7b71574 Merge 'lineage-22.2' into 15.0
 
-   * toolchain/pgo-profiles
-a68936d Remove AFDO profile for libz
+   * frameworks/native
+63ffb29 Add prefix and suffix to restrict iteration to optimize search efficiency
 
-   * vendor/certification
-1580b8c certification: update to the latest A16 beta (#6)
-
-====================
-     02-19-2025
-====================
-
-   * packages/apps/Catapult
-fb83201 Catapult: String improvements & fixes
-
-====================
-     02-18-2025
-====================
-
-   * external/avb
-5986166 avbtool: Add --set_verification_disabled_flag arg
-
-   * packages/apps/FMRadio
-168f373 jni: Move customisation to properties
-
-====================
-     02-17-2025
-====================
-
-   * packages/apps/DeskClock
-296e428 DeskClock: Convert ListPreferences to SimpleMenuPreferences
-
-   * packages/apps/Jelly
-1f5f1bc Jelly: Save user agreement about protected media
-
-====================
-     02-16-2025
-====================
-
-   * device/qcom/sepolicy-legacy-um
-ff38179 sepolicy: Add default permission for aidl hal_bootctl
-
-   * packages/apps/AudioFX
-02916e7 Automatic translation import
-
-   * packages/apps/Camelot
-23242a1 Automatic translation import
-
-   * packages/apps/Contacts
-77afb19 Automatic translation import
-
-   * packages/apps/Etar
-578b82a Automatic translation import
-
-   * packages/apps/FlipFlap
-fe2abce Automatic translation import
-
-   * packages/apps/Profiles
-7455e65 Automatic translation import
-
-   * packages/apps/Recorder
-8f65896 Automatic translation import
-
-   * packages/providers/DownloadProvider
-be8b0fb Automatic translation import
-
-   * packages/resources/devicesettings
-8624d14 Automatic translation import
-
-   * vendor/crowdin
-fef707d Automatic translation import
-
-   * vendor/qcom/opensource/commonsys/fm
-b38a391 Automatic translation import
-
-====================
-     02-15-2025
-====================
-
-   * art
-a44294a Update boot image and system server profiles [M80C35P56S0PP]
+   * hardware/google/pixel
+36f31de libperfmgr: silence spammy write failures
 
    * hardware/interfaces
-7d7ac39 Merge 'lineage-22.1' into 15.0
+1fc083d Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Dialer
+486dbe0 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/DocumentsUI
+163cb21 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Messaging
+65ae583 Merge 'lineage-22.2' into 15.0
+
+   * packages/apps/Settings
+1771b04 Settings: Add support for disabling non-system apps
+
+   * packages/apps/SetupWizard
+5c5d265 SetupWizard: Handle navbar and hw keys
+
+   * packages/apps/ThemePicker
+49d20de Merge 'lineage-22.2' into 15.0
+
+   * packages/inputmethods/LatinIME
+865b6c0 Merge 'lineage-22.2' into 15.0
+
+   * packages/modules/Bluetooth
+4136da7 Merge 'lineage-22.2' into 15.0
+
+   * packages/modules/Wifi
+42c575b Merge 'lineage-22.2' into 15.0
+
+====================
+     05-11-2025
+====================
 
    * hardware/lineage/interfaces
-ed17ff3 libperfmgr: Only throw DisplayIdle errors if we support it
+12709a5 powershare: Convert to AIDL
 
-   * lineage/scripts
-38d1654 reuse_helper: Handle kotlin files
+====================
+     05-10-2025
+====================
+
+   * packages/services/Iwlan
+83bd433 Remove android.net.ipsec.ike uses-library tag
+
+====================
+     05-09-2025
+====================
+
+   * hardware/qcom-caf/common
+fe3b092 qcom: Pass TARGET_KERNEL_VERSION to qtidisplay
+
+====================
+     05-08-2025
+====================
+
+====================
+     05-07-2025
+====================
+
+   * frameworks/opt/telephony
+065fa91 Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+
+   * lineage-sdk
+cab40aa ChargingControl: Prevent crash against null provider
+
+   * packages/modules/Permission
+ed11e0d Merge tag 'android-15.0.0_r32' into staging/lineage-22.2_merge-android-15.0.0_r32
+
+====================
+     05-06-2025
+====================
+
+   * build/release
+be57613 Update build flags to BP1A.250505.005
+
+   * hardware/qcom/sdm845/gps
+e2b4788 gps: Avoid access of deprecated LocUnorderedSetMap entry
+
+   * hardware/qcom/sm7250/gps
+17b95f9 gps: Avoid access of deprecated LocUnorderedSetMap entry
+
+   * hardware/qcom/sm8150/gps
+537a8b1 gps: Avoid access of deprecated LocUnorderedSetMap entry
+
+   * packages/apps/GameSpace
+bd98311 GameSpace: fix and animate panel view translation
+
+====================
+     05-05-2025
+====================
+
+====================
+     05-04-2025
+====================
+
+   * packages/apps/LineageParts
+4153ec8 Disable unused components
 
